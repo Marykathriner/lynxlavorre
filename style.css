@@ -1,6 +1,8 @@
+@import url("https://use.typekit.net/bvc6nhn.css");
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
     background-color: #B1A3AF;
 }
 
@@ -8,9 +10,101 @@ body{
     font-size: 40px;
     background-color: #43133C;
     color: white;
+    letter-spacing: 5px;
+    padding: 10px 0;
+}
+
+.wrapper-header{
+    font-family: ocr-a-std, monospace;
+    margin: 3% 15%;
+}
+
+.sub-heading{
+    padding: 0;
+    margin: 10px 0 0 0;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.sub-heading:hover{
+    font-size: 19.5px;
+    cursor: default;
 }
 
 .wrapper-li{
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    padding: 30% 0;
+    padding: 0% 30% 3% 30%;
+    display: flex;
+    max-width: max-content;
+    margin: auto;
+    flex-direction: column;
+}
+
+.title {
+    font-family: lores-15,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul{
+    padding: 0;
+    margin: 0
+}
+
+li{
+    border: black solid 2px;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+a:hover{
+    color: #43133C;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+h4{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-family: lores-15, sans-serif;
+    text-align: center;
+    margin: 0 0 5% 0;
+
+}
+
+h3{
+    letter-spacing: 5px;
+    font-family: lores-15, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+    transition: 0.8s;
+}
+
+h3:hover{
+    font-size: 32px;
+    margin: 30px 0;
+    cursor: default;
+}
+
+.wrapper {
+    background-color: #43133C;
+    color: #ffff;
+    margin: 0 0 0 0;
+    padding: 15px 0;
+    font-family: ocr-a-std, monospace;
+    font-size: 12px;
+    letter-spacing: 6px;
 }
