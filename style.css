@@ -133,6 +133,18 @@ h3:hover{
     font-family: ocr-a-std, monospace;
     font-size: 12px;
     letter-spacing: 6px;
+    line-height: 2.5;
+
+}
+
+.contact {
+    text-decoration: none;
+    color: #f2d5eb;
+}
+
+.contact:hover{
+    text-decoration: none;
+    color: #f2d5eb;
 }
 
 @media all and ( max-width: 600px) {
